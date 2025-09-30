@@ -9,7 +9,7 @@ DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 # Create an instance of FastMCP server
-server = FastMCP(name="ExpenseTracker")
+server = FastMCP(name="Finance Flow")
 
 
 def _get_account_id_from_name(conn: sqlite3.Connection, name: str) -> Optional[int]:
@@ -1175,3 +1175,4 @@ def categories():
 
 if __name__ == "__main__":
     server.run()
+
