@@ -1,0 +1,9 @@
+[project]
+name = "finance-flow-server"
+version = "0.1.0"
+description = "A local MCP (Model Context Protocol) server for personal conversational financial management. It empowers an AI assistant to track expenses, income, budgets, and accounts through natural language, turning complex financial tasks into simple conversations."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.12.4",
+]
